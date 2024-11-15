@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+}
+.header{
+    background-color:#A6E3E9;
+    padding: 0px 30px 0px 0px;
+    color: black;
+    
+}
+.header1{
+    text-align: center;
+    
+}
+.header1 h1{
+    font-style: normal;
+    font-size: 2.5rem;
+}
+.header2{
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.header2 ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   
+   
+}
+.header2 ul li{
+    font-size: 1.1rem;
+    padding: 13px;
+   
+  
+}
+.header2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header2 ul li a:hover{
+    color: white;
+}
+
+.header2 ul li a:active{
+    color: blue;
+}
+hr{
+    border: dotted;
+    border-bottom: none;
+    width: 4%;
+    margin: 15px auto 40px auto;
+    background-color:#E3FDFD;
+}
+/** SECTION**/
+
+.section{
+    background-color: #E3FDFD;
+}
+.section1{
+    text-align: center;
+    padding: 0px 40px 25px 40px;
+
+   
+}
+.section1 h2{
+    
+    font-size: 2rem;
+    padding: 10px;
+
+}
+#intro {
+    font-weight: 400;
+   font-size: 1.1rem;
+   margin: 10px;
+   padding: 5px;
+   color: black;
+   font-style: italic;
+   
+
+}
+#line{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 600px;
+    font-size: 1.1rem;
+    margin: 30px auto 20px auto;
+    padding: 20px;
+    color: blue;
+    
+   
+}
+.section1 img{
+  
+    height: 150px;
+    border-radius: 50%;
+}
+
+/** skill section**/
+.section2{
+    text-align: center;
+   padding: 20px;
+}
+.section2 h3{
+    font-size: 2.3rem;
+}
+.section2 ul{
+    padding: 0px;
+    margin-top: 15px;
+}
+.section2 ul li{
+    font-style: italic;
+    padding: 6px;
+    font-size: 1.1rem;
+}
+
+/********Education ********/
+.section3 {
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    padding: 10px 0px 10px 0px;
+}
+.section3 h3{
+    font-size: 2.3rem;
+    margin: 10px 0px 10px 0px;
+   
+}
+.section3 p{
+    font-size: 1.1rem;
+    padding: 10px;
+   font-style: italic;
+}
+.section3 p a{
+    text-decoration: none;
+    color: black;
+}
+.section3 p a:hover{
+    color:blue;
+    
+}
+.section3 p a:visited{
+    color: green;
+    
+}
+
+/********* projects *********/
+.section4 {
+    text-align: center;
+    margin: 50px 5px 30px 5px;
+    padding: 10px 0px 10px 0px;
+  
+}
+.section4 h3{
+    font-size: 2.2rem;
+    margin:10px 0px 0px 0px;
+
+}
+.section4 ul {
+    margin: 10px 0px 50px 0px;
+    padding: 10px 10px 10px 10px;
+}
+.section4 ul li{
+    padding: 10px 0px 10px 0px;
+}
+.section4 ul li p{
+    margin: 0px 10px 10px 0px;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+.section4 h4{
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+.section5{
+    text-align: center;
+    margin: 10px 0px 0px 10px;
+    padding: 20px;
+}
+.contact-button {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color:#11cdd4; /* Default color */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover state: Changes color when the cursor hovers over the button */
+.contact-button:hover {
+    background-color:#0056b3; /* Darker shade */
+    color: #ffffff;
+}
+
+/* Active state: Changes color when the button is clicked */
+.contact-button:active {
+    background-color:#003f7f; /* Even darker shade */
+    color: #ffffff;
+}
+
+/* Visited state: Changes color after the link has been visited */
+.contact-button:visited {
+    background-color:black; /* Different color for visited state */
+    color: #ffffff;
+}
+
+/******* footer *******/
+
+.footer{
+
+    background-color: #11cdd4;
+    height: 150px;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    padding: 40px 10px 10px 0px;
+}
+.footer1 a{
+    margin: 30px;
+    text-decoration: none;  
+    color:#11999e;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600px;
+}
+.footer1 a:hover{
+    color: white;
+}
+
+.footer1 p{
+    padding: 30px;
+    color: white;
+}
+
+
+
+
+@media (max-width: 760px ){
+    .header1 h1{
+        font-size: 2rem;
+
+    }
+    .header2 ul {
+        flex-direction:column;
+        display: flex;
+        align-items: flex-start;
+        padding: 0px;
+       
+    }
+    .header2 ul li{
+       padding: 5px;  
+    }
+   .section1 h2{
+    font-size: 1.5rem;
+   }
+   #intro{
+    font-size: 1rem;
+    font-weight: 200px;
+    
+   }
+   #line{
+    font-size: 1rem;
+    font-weight: bolder;
+   }
+  .section h3{
+    font-size: 1.6rem;
+   }
+   .section4 ul li p{
+    font-size: 0.90rem;
+   }
+   .section5 button{
+    font-size: 1.5rem;
+   }
+   .section5 button a{
+    font-size: 1.3rem;
+   }
+
